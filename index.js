@@ -25,7 +25,7 @@ function callAPI(message) {
         method: "POST",
         headers: {
             "content-type": "application/json",
-            "X-RapidAPI-Key": "TU_API_KEY_AQUI",
+            "X-RapidAPI-Key": '441648ba1emsh9011918ae9688c3p12252fjsn2cda909368a5',
             "X-RapidAPI-Host": "chatgpt-api8.p.rapidapi.com"
         },
         body: JSON.stringify([
@@ -46,3 +46,4 @@ function callAPI(message) {
         );
     });
 }
+
